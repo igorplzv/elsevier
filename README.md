@@ -54,21 +54,38 @@ pip install -r requirements.txt
 
 ## Quick Start
 
-1. Install dependencies:
+### Option 1: Demo Mode (No API Key Required)
+
+See how the tool works with sample data:
+```bash
+pip install -r requirements.txt
+python demo_mode.py
+```
+
+### Option 2: Live API Mode (Requires Activated API Key)
+
+1. **Get an API key** from https://dev.elsevier.com (see [API_KEY_SETUP.md](API_KEY_SETUP.md))
+
+2. **Wait for activation email** (24-48 hours after registration)
+
+3. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
 
-2. (Optional) Update your API key in `config.py` if the default doesn't work
-
-3. Run the example scripts:
-   ```bash
-   python examples.py
+4. **Update your API key** in `config.py`:
+   ```python
+   API_KEY = "your-activated-api-key-here"
    ```
 
-4. Or use the interactive search tool:
+5. **Test your setup:**
    ```bash
-   python sciencedirect_search.py
+   python test_setup.py
+   ```
+
+6. **Start searching:**
+   ```bash
+   python sciencedirect_search.py "your search query"
    ```
 
 ## Usage

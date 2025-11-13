@@ -3,7 +3,7 @@ Configuration file for ScienceDirect Search Tool
 """
 
 # Elsevier API Configuration
-API_KEY = "61c260a6a468a1bfbaa1a2c004f1282"
+API_KEY = "861c260a6a468a1bfbaa1a2c004f1282"
 
 # Optional: Institutional token (if you have one)
 # INST_TOKEN = "your-institutional-token-here"

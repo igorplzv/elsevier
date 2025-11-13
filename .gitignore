@@ -35,6 +35,9 @@ ENV/
 # Search Results
 search_results.json
 
+# Debug scripts
+debug_api*.py
+
 # OS
 .DS_Store
 Thumbs.db
